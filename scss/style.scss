@@ -104,19 +104,19 @@ header {
 		backdrop-filter: blur(5px);
 
 		.hero-title {
-			width: 45rem;
+			width: 50rem;
 
 			h1 {
-				font-size: 5rem;
+				font-size: 6rem;
 				margin: 2.5rem 0;
 
 				.web {
-					font-size: 5rem;
+					font-size: 6rem;
 					background: $color-danger;
 				}
 
 				.greeting-title {
-					font-size: 5rem;
+					font-size: 6rem;
 					background-color: $color-white;
 				}
 			}
@@ -134,5 +134,10 @@ header {
 			}
 		}
 	}
+}
 
+//Skills
+
+.skills{
+	margin-top: 5rem;
 }
