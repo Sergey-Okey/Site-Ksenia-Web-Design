@@ -1,0 +1,139 @@
+//header
+@import './color.scss';
+
+body {
+	width: 100%;
+	font-size: 16px;
+	font-family: "Montserrat Alternates", sans-serif;
+	font-style: normal;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	margin: 3rem 0;
+
+	.container {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.logo {
+		h1 {
+			display: flex;
+			align-items: center;
+			color: $color-success;
+		}
+
+		a {
+			color: $color-dark;
+			text-transform: uppercase;
+			font-size: 1.3rem;
+		}
+	}
+
+	.nav {
+		width: 50%;
+
+		ul {
+			padding: 0;
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+
+			a {
+				font-size: 1.1rem;
+				text-transform: uppercase;
+				font-weight: 500;
+			}
+		}
+
+	}
+
+	.logo-button {
+		a {
+			button {
+				color: $color-dark;
+				background: $color-warning ;
+				border: 0;
+				border-radius: $border-radius-1 ;
+				font-size: 1.5rem;
+				padding: 10px;
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+//Hero 
+
+.hero {
+
+	.image-hero-1,
+	.image-hero-2 {
+		position: absolute;
+	}
+
+	.image-hero-1 {
+		top: 10rem;
+		z-index: -1;
+		left: 1rem;
+	}
+
+	.image-hero-2 {
+		top: 65%;
+		right: 2rem;
+		z-index: -1;
+	}
+
+	.hero-conteiner {
+		display: flex;
+		position: relative;
+		width: 100%;
+		padding: 4rem 5rem;
+		border-radius: $card-border-radius;
+		align-items: center;
+		box-shadow: $box-shadow;
+		background: $color-info-dark;
+		backdrop-filter: blur(5px);
+
+		.hero-title {
+			width: 45rem;
+
+			h1 {
+				font-size: 5rem;
+				margin: 2.5rem 0;
+
+				.web {
+					font-size: 5rem;
+					background: $color-danger;
+				}
+
+				.greeting-title {
+					font-size: 5rem;
+					background-color: $color-white;
+					margin-bottom: 5rem;
+				}
+			}
+
+			span {
+				font-size: 2rem;
+			}
+		}
+
+		.hero-img {
+			margin-left: 10rem;
+
+			img {
+				width: 500px;
+			}
+		}
+	}
+
+}
