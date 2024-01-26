@@ -81,6 +81,7 @@ header {
 				padding: 10px;
 				font-weight: 600;
 				text-transform: uppercase;
+				cursor: pointer;
 			}
 		}
 	}
@@ -450,6 +451,46 @@ header {
 			font-style: italic;
 			margin-top: 4px;
 			font-weight: 600;
+		}
+	}
+}
+
+//Footer
+
+footer {
+	padding: 2rem 0;
+	background-color: $color-info-dark;
+	margin-top: 10rem;
+
+	.footer-container {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		font-size: 2rem;
+
+		ul {
+			display: flex;
+			width: 30%;
+			justify-content: space-around;
+
+			a {
+				font-size: 2rem;
+				color: $color-success;
+				text-transform: uppercase;
+			}
+
+			a:hover {
+				color: $color-danger;
+				text-decoration: underline $color-success;
+			}
+		}
+
+		.copylock {
+			font-weight: 700;
+		}
+
+		.icon8 {
+			color: $color-white;
 		}
 	}
 }
