@@ -7,6 +7,7 @@ body {
 	font-family: "Montserrat Alternates", sans-serif;
 	font-style: normal;
 	user-select: none;
+	overflow-x: hidden;
 }
 
 .container {
@@ -22,6 +23,7 @@ header {
 	top: 0;
 	z-index: 2;
 	border-radius: $border-radius-2;
+	box-shadow: $box-shadow;
 
 	.container {
 		width: 100%;
@@ -118,6 +120,7 @@ header {
 		align-items: center;
 		background: $color-info-dark;
 		backdrop-filter: blur(10px);
+		box-shadow: $box-shadow;
 
 		.hero-title {
 			width: 50rem;
@@ -170,6 +173,7 @@ header {
 		background: $color-danger;
 		border-radius: $card-border-radius;
 		backdrop-filter: blur(10px);
+		box-shadow: $box-shadow;
 	}
 
 	.container .card {
@@ -270,7 +274,6 @@ header {
 			letter-spacing: -.01em;
 			line-height: 100%;
 			margin: 0;
-
 			width: 100%;
 			color: rgb(182, 182, 182, 0.2);
 			background: linear-gradient(to right, #b6b6b6, #b6b6b6) no-repeat;
@@ -278,7 +281,6 @@ header {
 			background-clip: text;
 			background-size: 0%;
 			transition: background-size cubic-bezier(.1, .5, .5, 1) 0.5s;
-
 
 			border-bottom: 1px solid #2F2B28;
 

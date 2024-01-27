@@ -1,10 +1,12 @@
 @media screen and (max-width:767px) {
 	body {
 		width: 100%;
+		overflow-x: hidden;
 	}
 
 	header {
 		margin: 1rem 0;
+		width: 99%;
 
 		.container {
 			.logo {
@@ -83,6 +85,12 @@
 			ul {
 				padding: 0;
 			}
+		}
+	}
+
+	.experience {
+		h2 {
+			font-size: 2.5rem;
 		}
 	}
 }
